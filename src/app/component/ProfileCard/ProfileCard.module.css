@@ -1,6 +1,6 @@
 /* styles/ProfileCard.module.css */
 .card {
-    background-color: rgba(27, 58, 87, 0.6);
+    background-color: rgba(9, 20, 30, 1);
     border-radius: 10px; /* Bordas arredondadas */
     padding: 20px; /* Espaçamento interno */
     text-align: center; /* Centraliza o texto */
@@ -13,6 +13,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 
+    5px 5px 10px rgba(27, 58, 87, 0.6),  /* Sombra à direita */
+    -5px 5px 10px rgba(27, 58, 87, 0.6), /* Sombra à esquerda */
+    0px 5px 10px rgba(27, 58, 87, 0.6);  /* Sombra na parte inferior */
 }
 
 .card:hover {
@@ -27,11 +31,14 @@
     display: flex; /* Para centralizar o conteúdo */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    border: 5px solid #0070f3; /* Contorno em volta da imagem */
+    border: 3px solid rgba(221, 225, 230, 1); /* Contorno em volta da imagem */
     background-color: #ffffff; /* Fundo branco para o contorno */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para o contorno */
     position: relative;
     top: -50px;
+    box-shadow: 
+    3px 2px 8px rgba(12, 255, 227, 0.57),  /* Sombra à direita */
+    -3px 2px 8px rgba(12, 255, 227, 0.57), /* Sombra à esquerda */
+    0px 2px 8px rgba(12, 255, 227, 0.57);  /* Sombra na parte inferior */
 }
 
 .image {
