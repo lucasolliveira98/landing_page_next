@@ -2,10 +2,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import photoJhonathan from '../../assets/jonathan.jpg'
-import photoGabriel from '../../assets/gabriel.png';
 import '../Footer/Footer.css';
-// import ImageDisplay from '../ImageDisplay/ImageDisplay';
 
 export const Footer = () => {
     return (

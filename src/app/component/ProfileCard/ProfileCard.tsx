@@ -6,10 +6,12 @@ import styles from './ProfileCard.module.css'; // Importa o arquivo CSS
 interface ProfileCardProps {
   name: string;
   description: string;
-  imageUrl: any;
+  imageUrl: {
+    src: string;
+  }; // Define o tipo de imageUrl corretamente
 }
 
-const ProfileCard: React.FC<ProfileCardProps> = ({ name, description, imageUrl }) => {
+const ProfileCard: React.FC<ProfileCardProps> = ({ name, description, imageUrl }:ProfileCardProps) => {
   return (
       <div className={styles.card}>
         <div className={styles.imageContainer}>

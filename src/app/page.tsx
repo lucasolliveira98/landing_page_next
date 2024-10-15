@@ -15,7 +15,6 @@ import CardQuantAlunos from "./component/CardQuantAlunos/CardQuantAlunos";
 import ProfileCard from "./component/ProfileCard/ProfileCard";
 import styles from "./page.module.css";
 import { Footer } from './component/Footer/Footer'
-import Checkout from './component/Checkout/Checkout'
 
 export default function Home() {
 
