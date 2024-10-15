@@ -1,0 +1,45 @@
+.advantagesQuantAlunos{
+    position: relative;
+    width: 476px;
+    height: 183px;
+    /* background-color: #00000047; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 16px;
+    /* background-color: red; */
+    top: -12em;
+    left: 4em;
+    color: white;
+}
+.advantagesNumber{
+    font-size: 8em;
+    background: linear-gradient(to right, #19FB9B, #8C01FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.upNumber{
+    animation: upNumber 3s;
+}
+
+@keyframes upNumber {
+    from{
+        transform: translateY(150px);
+        opacity: 0;
+    }to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.advantagesTitleAlunos{
+    font-size: 3em;
+    background: linear-gradient(to right, #19FB9B, #8C01FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
