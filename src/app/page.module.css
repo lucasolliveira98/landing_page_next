@@ -129,7 +129,7 @@
 .aboutMe{
   height: 900px;
   width: 100vw;
-  background-image: url('../app/assets/background-three_1.jpg');
+  background-image: url('../app/assets/background-three.jpg');
   background-size: contain; /* Faz a imagem cobrir todo o container */
   background-repeat: no-repeat; /* Impede a repetição da imagem */
   position: relative;
@@ -429,4 +429,104 @@
 
 .checkoutIconLavel h6{
   color: #0080b3;
+}
+
+
+@media (max-width: 768px) {
+  .containerInitialPage{
+    width: 100%;
+  }
+
+  .aboutMe{
+    width: 100%;
+    background-image: url('./assets/background-three_portrait.jpg');
+    /* background-color: red; */
+    padding: 0;
+  }
+
+  .containerAboutMe{  
+    width: 100%;
+    height: 100%;
+    /* background-color: #8C01FA; */
+    padding: 1em;
+  }
+
+  .aboutMeTitle{
+    text-align: center;
+    /* background-color: red; */
+  }
+
+  .containerTextAboutMe{
+    /* background-color: yellow; */
+    height: 100%;
+  }
+
+  .aboutMeBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: 300;
+  }
+
+  .advantages{
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/background-two_portrait.jpeg');
+    background-position: center;
+  }
+
+  .containerAdvantages{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .advantagesTitle{
+    font-size: 3em;
+  }
+
+  .advantagesCard{
+    height: 150px;
+  }
+
+  .advantagesCard:nth-child(2){
+    position: static;
+  }
+
+  .advantagesCard:nth-child(3){
+    position: static;
+  }
+
+  .advantagesCard:nth-child(4){
+    position: static;
+  }
+  
+  .advantagesCardTitle{
+    font-size: 1em;
+  }
+  .advantagesCardSpan{
+    font-size: 1em;
+  }
+
+  .feedBack{
+    height: 1400px;
+    padding-top: 1em;
+  }
+  
+  .feedBackTitle {
+      font-size: 2.5em;
+  }
+
+  .feedBackCardContainer {
+      gap: 3.5em;
+      flex-direction: column;
+      margin-top: 2%;
+      padding-top: 5em;
+  }
 }

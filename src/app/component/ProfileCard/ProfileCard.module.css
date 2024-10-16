@@ -1,64 +1,114 @@
 /* styles/ProfileCard.module.css */
 .card {
     background-color: rgba(9, 20, 30, 1);
-    border-radius: 10px; /* Bordas arredondadas */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
-    max-width: 380px; /* Largura máxima */
-    height: 236px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave para efeito hover */
-    /* background-color: red; */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 380px;
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 
-    5px 5px 10px rgba(27, 58, 87, 0.6),  /* Sombra à direita */
-    -5px 5px 10px rgba(27, 58, 87, 0.6), /* Sombra à esquerda */
-    0px 5px 10px rgba(27, 58, 87, 0.6);  /* Sombra na parte inferior */
+        5px 5px 10px rgba(27, 58, 87, 0.6),
+        -5px 5px 10px rgba(27, 58, 87, 0.6),
+        0px 5px 10px rgba(27, 58, 87, 0.6);
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Leve elevação ao passar o mouse */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .imageContainer {
-    border-radius: 50%; /* Torna a imagem circular */
-    width: 110px; /* Largura do contêiner da imagem */
-    height: 110px; /* Altura do contêiner da imagem */
-    display: flex; /* Para centralizar o conteúdo */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    border: 3px solid rgba(221, 225, 230, 1); /* Contorno em volta da imagem */
-    background-color: #ffffff; /* Fundo branco para o contorno */
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 225, 230, 1);
+    background-color: #ffffff;
     position: relative;
     top: -50px;
     box-shadow: 
-    3px 2px 8px rgba(12, 255, 227, 0.57),  /* Sombra à direita */
-    -3px 2px 8px rgba(12, 255, 227, 0.57), /* Sombra à esquerda */
-    0px 2px 8px rgba(12, 255, 227, 0.57);  /* Sombra na parte inferior */
+        3px 2px 8px rgba(12, 255, 227, 0.57),
+        -3px 2px 8px rgba(12, 255, 227, 0.57),
+        0px 2px 8px rgba(12, 255, 227, 0.57);
 }
 
 .image {
-    width: 100%; /* Preenche o contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 50%; /* Torna a imagem circular */
-    display: block; /* Remove o espaço abaixo da imagem */
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
 }
 
 .name {
-    font-size: 1.25rem; /* Tamanho da fonte do nome */
-    color: #333; /* Cor escura para o nome */
-    font-weight: 600; /* Peso da fonte */
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 600;
     position: relative;
     top: -20px;
 }
 
 .description {
-    font-size: 0.875rem; /* Tamanho da fonte da descrição */
-    color: #666; /* Cor mais clara para a descrição */
-    line-height: 1.6; /* Altura da linha para melhor legibilidade */
-    padding: 0 10px; /* Espaçamento lateral */
+    font-size: 0.875rem;
+    color: #ccc;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card {
+        max-width: 400px;
+        max-height: 200px;
+        display: flex;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .imageContainer {
+        position: relative;
+        width: 90px;
+        height: 90px;
+        top: -40px;
+    }
+
+    .name {
+        font-size: 1rem;
+        top: -15px;
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        max-width: 260px;
+        padding: 10px;
+    }
+
+    .imageContainer {
+        width: 80px;
+        height: 80px;
+        top: -35px;
+    }
+
+    .name {
+        font-size: 0.9rem;
+        top: -10px;
+    }
+
+    .description {
+        font-size: 0.75rem;
+    }
 }

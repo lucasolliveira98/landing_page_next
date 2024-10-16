@@ -39,7 +39,7 @@ export default function Home() {
                         Aqui, você terá acesso a ferramentas, estratégias e insights que vão transformar sua relação com o dinheiro, permitindo que você alcance seus objetivos e desfrute de uma vida com mais tranquilidade e autonomia.
                         <br /><br />
                         Agora é a hora de dar o primeiro passo rumo ao controle total do seu futuro financeiro!</h3>
-                    <button className={styles.initialPageButton}>Comprar</button>
+                    {/* <button className={styles.initialPageButton}>Comprar</button> */}
                 </div>
             </div>
 

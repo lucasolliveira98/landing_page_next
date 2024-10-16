@@ -14,6 +14,7 @@
     top: -12em;
     left: 4em;
     color: white;
+
 }
 .advantagesNumber{
     font-size: 8em;
@@ -41,5 +42,21 @@
     background: linear-gradient(to right, #19FB9B, #8C01FA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+}
+
+@media (max-width: 768px) {
+    .advantagesQuantAlunos{
+        position: static;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .advantagesNumber{
+        font-size: 5em;
+    }
+
+    .advantagesTitleAlunos{
+        font-size: 2em;
+        padding-bottom: 2.5em;
+    }
 }
