@@ -33,6 +33,11 @@ export const Footer = () => {
                 </div>
             </div>
 
+            <div className="development">
+                <h4>Desenvolvido por <b>Tech Think Solutions</b></h4>
+                <a href="https://techthinksolutions.com.br/" target="_blank" rel="noopener noreferrer">techthinksolutions.com.br</a>
+            </div>
+
         </div>
     );
 };

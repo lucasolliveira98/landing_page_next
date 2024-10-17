@@ -21,15 +21,16 @@ export default function Home() {
     return (
 
         <main className={styles.main}>
+            
+            <div className={styles.header}>
+                <h3 className={styles.itemHeader}>Minha história</h3>
+                <h3 className={styles.itemHeader}>Vantagens</h3>
+                <h3 className={styles.itemHeader}>Feedback</h3>
+                <h3 className={styles.itemHeader}>Checkout</h3>
+            </div>
 
             <div className={styles.initialPage}>
                 <div className={styles.containerInitialPage}>
-                    <div className={styles.header}>
-                        <h3 className={styles.itemHeader}>Minha história</h3>
-                        <h3 className={styles.itemHeader}>Vantagens</h3>
-                        <h3 className={styles.itemHeader}>Feedback</h3>
-                        <h3 className={styles.itemHeader}>Checkout</h3>
-                    </div>
                     <h1 className={styles.initialPageTitle}>Conquiste sua liberdade financeira</h1>
                     <h3 className={styles.initialPageBody}>
                         Imagine poder viver a vida que sempre sonhou, sem se preocupar com dívidas ou limitações financeiras.

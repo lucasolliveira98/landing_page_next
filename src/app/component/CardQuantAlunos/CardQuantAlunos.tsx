@@ -21,7 +21,7 @@ export default function CardQuantAlunos() {
                         intervalId = setInterval(() => {
                             setQuantAlunos((preview) => {
                                 if (preview < 500) {
-                                    return preview + 2;
+                                    return preview + 5;
                                 } else {
                                     clearInterval(intervalId!); // Limpa o intervalo quando atingir 500
                                     intervalId = null; // Reseta a referência do intervalo

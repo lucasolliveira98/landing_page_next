@@ -4,7 +4,38 @@
    /* background: linear-gradient(to bottom, #020E1A, #1B3A57); */
    flex-direction: column;
    background-color: black;
-   font-family: "Ubuntu", sans-serif;;
+   font-family: "Ubuntu", sans-serif;
+}
+
+.header{
+  position: fixed;
+  /* margin-top: 5%; */
+  width: 100%;
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: whitesmoke;
+  padding-top: 2em;
+  font-size: .7em;
+  transition: 1s;
+  background-color: rgb(3, 41, 64, .8);
+  gap: 5em;
+  padding-right: 5em;
+  z-index: 999;
+}
+
+.itemHeader{
+  width: auto;
+  height: auto;
+  transition: .5s;
+}
+
+.itemHeader:hover{
+  transform: scale(1.1);
+  transition: .5s;
+  cursor: pointer;
+  color: #00a3e3;
 }
 
 .initialPage{
@@ -20,11 +51,6 @@
   animation: scaleUp 2s;
 }
 
-/* .initialPage:hover{
-  transition: 2s;
-  transform: scale(1.1);
-} */
-
 @keyframes scaleUp {
   0% {
     transform: scale(1.2);
@@ -38,31 +64,6 @@
   transform: scale(1.2); /* Aumenta o botão ao passar o mouse */
 }
 
-.header{
-  margin-top: 5%;
-  width: 100%;
-  height: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  color: whitesmoke;
-  padding-top: 1em;
-  font-size: .7em;
-  transition: 1s;
-}
-
-.itemHeader{
-  width: auto;
-  height: auto;
-  transition: .5s;
-}
-
-.itemHeader:hover{
-  transform: scale(1.1);
-  transition: .5s;
-  cursor: pointer;
-  color: #00a3e3;
-}
 .containerInitialPage{
   width: 50%;
   height: 100%;
@@ -83,6 +84,7 @@
   font-size: 2.8em;
   text-align: center;
   font-weight: 800;
+  padding-top: 5em;
 }
 
 .initialPageBody{
@@ -275,14 +277,6 @@
   flex-wrap: wrap-reverse;
 }
 
-.blockCheckout{
-  position: relative;
-  width: 200px;
-  height: 160px;
-  background-color: #0080b3;
-  z-index: 5;
-}
-
 .checkout{
   height: 700px;
   width: 100vw;
@@ -433,6 +427,10 @@
 
 
 @media (max-width: 768px) {
+
+  .header{
+    padding-right: 2em;
+  }
   .containerInitialPage{
     width: 100%;
   }
@@ -528,5 +526,74 @@
       flex-direction: column;
       margin-top: 2%;
       padding-top: 5em;
+  }
+
+  .checkout{
+    padding: 5em;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width:480px) {
+  .header{
+    gap: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  .initialPage{
+    background-position: 30%;
+  }
+
+  .initialPageTitle{
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .initialPageBody{
+    text-align: left;
+  }
+
+  .aboutMe{
+    height: 1100px;
+    background-position: bottom;
+  }
+
+  .containerAboutMe{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom, rgb(2, 14, 26), rgb(27, 58, 87)); */
+  }
+
+  .aboutMeTitle{
+    text-align: center;
+  }
+
+  .containerTextAboutMe{
+    /* background-color: green; */
+  }
+
+  .aboutMeBody{
+    /* background-color: #00a3e3; */
+  }
+
+  .advantages{
+  }
+  .containerAdvantages{
+    gap: .7em;
+  }
+  .advantagesTitle{
+    font-size: 2.5em;
+  }
+  .advantagesCard{}
+  .advantagesCard:nth-child(2){}
+  .advantagesCard:nth-child(3){}
+  .advantagesCard:nth-child(4){}
+  .advantagesCardTitle{}
+  .advantagesCardSpan{}
+
+  .feedBack{
+    height: 1500px;
   }
 }
