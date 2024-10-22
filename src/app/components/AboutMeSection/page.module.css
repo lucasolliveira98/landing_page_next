@@ -1,0 +1,149 @@
+.aboutMe{
+    height: 900px;
+    width: 100vw;
+    background-image: url('../../assets/background-three.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o container */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    position: relative;
+    /* background-color: rebeccapurple; */
+    padding-left: 2em;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .containerAboutMe{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 5em;
+    border-radius: 8px;
+  }
+  
+  .containerTextAboutMe{
+    background-color: rgba(1, 15, 30, 0.6);
+    box-shadow: 0 0 3px rgba(1, 15, 30, 0.6), 0 0 10px rgba(1, 15, 30, 0.6), 0 0 20px rgba(1, 15, 30, 0.6), 
+                0 0 120px rgba(1, 15, 30, 0.6), 0 0 80px rgba(1, 15, 30, 0.6), 0 0 120px rgba(1, 15, 30, 0.6);
+  }
+  
+  .aboutMeTitle{
+    width: 100%;
+    color: aliceblue;
+    /* background-color: red; */
+    font-size: 2.8em;
+    font-weight: 800;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .aboutMeBody{
+    width: 100%;
+    /* background-color: red; */
+    color: #C4C4C4;
+    /* color: whitesmoke; */
+    font-size: .8em;
+    line-height: 1.5em;
+    font-weight: 500;
+  }
+
+  .containerAboutMePhoto{
+    width: 50%;
+    background-image: url('../../assets/background-three.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o container */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    position: relative;
+    background-position: 80%;
+  }
+
+  @media (max-width:1100px){
+
+    .aboutMe{
+        background-position: 30%;
+    }
+    .containerAboutMe{
+      width: 60%;
+      /* background-color: yellow; */
+      padding-left: 0em;
+    }
+
+    .aboutMeBody{
+      font-size: .8em;
+    }
+  }
+
+  @media(max-width:1000px){
+    .containerAboutMe{
+        /* width: 60%; */
+        padding-left: 0em;
+      }
+    
+    .containerAboutMePhoto{
+        background-position: 75%
+    }
+  }
+
+  @media(max-width:1000px){
+    .containerTextAboutMe{
+        font-size: .9em;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .containerAboutMePhoto{
+        display: none;
+    }
+    .aboutMe{
+      width: 100%;
+      background-image: url('../../assets/background-three_portrait.jpg');
+      padding: 0;
+      background-position: center;
+    }
+  
+    .containerAboutMe{  
+      width: 100%;
+      height: 100%;
+      padding: 1em;
+    }
+  
+    .aboutMeTitle{
+      text-align: center;
+    }
+  
+    .containerTextAboutMe{
+      height: 100%;
+    }
+  
+    .aboutMeBody{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      line-height: 1.3em;
+      font-weight: 300;
+      font-size: 1em;
+    }
+
+    .containerAboutMePhoto{
+        background-image: none;
+    }
+  }
+
+@media (max-width:480px) {
+  .aboutMe{
+    height: 1100px;
+    background-position: bottom;
+  }
+
+  .containerAboutMe{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom, rgb(2, 14, 26), rgb(27, 58, 87)); */
+  }
+
+  .aboutMeTitle{
+    text-align: center;
+  }
+}

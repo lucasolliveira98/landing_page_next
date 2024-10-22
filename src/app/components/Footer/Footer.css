@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.footer-aboutUs {
+    width: 100%;
+    height: 40%;
+    background-color: #191621;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+.social-media {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-media h1 {
+    width: 60%;
+    height: 15%;
+    text-align: center;
+    font-family: 'MuseoModerno', sans-serif;
+    text-align: left;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.icons-social-media {
+    width: 60%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.icons-social-media span {
+    width: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 2%;
+}
+
+.icons-social-media span:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.development{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5em;
+    color: white;
+    gap: 1em;
+}
+
+.development h4, .development a{
+    font-weight: 400;
+    font-size: .8em;
+}
+
+@media (max-width:798px) {
+    .footer-aboutUs{
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .social-media{
+        width: 100%;
+    }
+
+    .social-media h1{
+        text-align: center;
+    }
+
+    .icons-social-media{
+        justify-content: center;
+    }
+
+    .development{
+        width: 100%;
+        align-items: center;
+        padding-right: 0;
+    }
+}
