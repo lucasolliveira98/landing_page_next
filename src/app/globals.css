@@ -34,7 +34,7 @@ a {
   background-color: #CCCCCC;
 }
 *::-webkit-scrollbar-button {
-    border: 1px #FF0000 dashed;
+    border: 1px #000000 dashed;
 }
 *::-webkit-scrollbar-track {
   background: #ccc;

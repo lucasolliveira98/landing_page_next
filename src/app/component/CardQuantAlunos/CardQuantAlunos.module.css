@@ -11,10 +11,9 @@
     padding: 1em;
     border-radius: 16px;
     /* background-color: red; */
-    top: -12em;
-    left: 4em;
+    top: -15em;
+    left: 4%;
     color: white;
-
 }
 .advantagesNumber{
     font-size: 8em;
@@ -44,7 +43,25 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
+    .advantagesQuantAlunos{
+        left: 2%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .advantagesQuantAlunos{
+        left: -4%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .advantagesQuantAlunos{
+        left: -8%;
+    }
+}
+
+@media (max-width: 900px) {
     .advantagesQuantAlunos{
         position: static;
         height: 150px;

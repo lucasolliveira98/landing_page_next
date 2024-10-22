@@ -97,9 +97,3 @@
         padding-right: 0;
     }
 }
-
-@media (max-width:480px) {
-    .footer-aboutUs{
-        margin-top: 2.5em;
-    }
-}
