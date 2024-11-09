@@ -42,7 +42,7 @@
   
   .initialPageTitle{
     width: 100%;
-    color: rgb(10, 10, 10);
+    color: #aae1f7;
     /* background-color: red; */
     font-size: 3em;
     text-align: center;
@@ -54,12 +54,11 @@
   .initialPageBody{
     width: 80%;
     height: 30%;
-    color: rgb(45, 48, 50);
     /* background-color: rgb(102, 255, 0); */
     font-size: 1em;
     text-align: left;
-    color: #C4C4C4;
-    font-weight: 100;
+    color: #aae1f7;
+    font-weight: 900;
   
   }
   
