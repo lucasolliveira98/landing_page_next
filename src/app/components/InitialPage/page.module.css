@@ -5,6 +5,7 @@
     height: 100vh;
     width: 100vw;
     background-image: url('../../assets/background-one.jpg');
+  
     background-size: cover; /* Faz a imagem cobrir todo o container */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
     display: flex;
@@ -41,23 +42,25 @@
   
   .initialPageTitle{
     width: 100%;
-    color: aliceblue;
+    color: rgb(10, 10, 10);
     /* background-color: red; */
-    font-size: 2.8em;
+    font-size: 3em;
     text-align: center;
     font-weight: 800;
     padding-top: 5em;
+  
   }
   
   .initialPageBody{
     width: 80%;
     height: 30%;
-    color: aliceblue;
+    color: rgb(45, 48, 50);
     /* background-color: rgb(102, 255, 0); */
     font-size: 1em;
     text-align: left;
     color: #C4C4C4;
     font-weight: 100;
+  
   }
   
   

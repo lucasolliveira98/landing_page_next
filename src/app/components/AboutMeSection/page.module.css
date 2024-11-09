@@ -1,7 +1,7 @@
 .aboutMe{
     height: 900px;
     width: 100vw;
-    background-image: url('../../assets/background-three.jpg');
+    background-color: rgba(1, 15, 30, 0.6);
     background-size: cover; /* Faz a imagem cobrir todo o container */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
     position: relative;
@@ -51,11 +51,7 @@
 
   .containerAboutMePhoto{
     width: 50%;
-    background-image: url('../../assets/background-three.jpg');
-    background-size: cover; /* Faz a imagem cobrir todo o container */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
-    position: relative;
-    background-position: 80%;
+    background-color: rgba(1, 15, 30, 0.6);
   }
 
   @media (max-width:1100px){
@@ -97,7 +93,7 @@
     }
     .aboutMe{
       width: 100%;
-      background-image: url('../../assets/background-three_portrait.jpg');
+      background-color: rgba(1, 15, 30, 0.6);
       padding: 0;
       background-position: center;
     }
