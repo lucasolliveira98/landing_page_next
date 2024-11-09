@@ -15,22 +15,22 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   // Título da página
-  title: "Curso Trader Gabriel Mozaner - Transforme sua Vida Financeira",
+  title: "Curso Trader Lucas Oliveira - Transforme sua Vida Financeira",
 
   // Descrição da página
-  description: "Aprenda a operar no mercado de opções binárias com o trader Gabriel Mozaner e alcance liberdade financeira. Curso completo e prático para iniciantes e avançados.",
+  description: "Aprenda a operar no mercado de opções binárias com o trader Lucas Oliveira e alcance liberdade financeira. Curso completo e prático para iniciantes e avançados.",
 
   // Palavras-chave para SEO
-  keywords: ["curso trader", "Gabriel Mozaner", "opções binárias", "liberdade financeira", "trader iniciante", "mercado financeiro"],
+  keywords: ["curso trader", "Lucas Oliveira", "opções binárias", "liberdade financeira", "trader iniciante", "mercado financeiro"],
 
   // Gerador da página
   generator: "Next.js",
 
   // Nome do aplicativo
-  applicationName: "Gabriel Mozaner Curso Trader",
+  applicationName: "Lucas Oliveira Curso Trader",
 
   // Autores do conteúdo
-  authors: [{ name: "Gabriel Mozaner", url: "https://gabrielmozaner.com" }],
+  authors: [{ name: "Lucas Oliveira", url: "https://lucasoliveira.com" }],
 
   // Referência do conteúdo (de onde foi carregado)
   referrer: "no-referrer",
@@ -64,18 +64,18 @@ export const metadata: Metadata = {
 
   // Propriedades OpenGraph (usadas em redes sociais)
   openGraph: {
-    title: "Curso Trader Gabriel Mozaner",
-    description: "Transforme sua vida financeira com o curso de opções binárias do Gabriel Mozaner.",
-    url: "https://gabrielmozaner.com",
-    siteName: "Gabriel Mozaner Trader",
+    title: "Curso Trader Lucas Oliveira",
+    description: "Transforme sua vida financeira com o curso de opções binárias do Lucas Oliveira.",
+    url: "https://lucasoliveira.com",
+    siteName: "Lucas Oliveira Trader",
     locale: "pt_BR",
     type: "website",
     images: [
       {
-        url: "https://gabrielmozaner.com/og-image.png",
+        url: "https://lucasoliveira.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Curso Trader Gabriel Mozaner",
+        alt: "Curso Trader Lucas Oliveira",
       },
     ],
   },
@@ -83,25 +83,25 @@ export const metadata: Metadata = {
   // Propriedades do Twitter Cards
   twitter: {
     card: "summary_large_image",
-    site: "@gabrielmozaner",
-    creator: "@gabrielmozaner",
-    title: "Curso Trader Gabriel Mozaner",
-    description: "Aprenda a operar no mercado de opções binárias com o trader Gabriel Mozaner.",
-    images: ["https://gabrielmozaner.com/twitter-image.png"],
+    site: "@lucasoliveira",
+    creator: "@lucasoliveira",
+    title: "Curso Trader Lucas Oliveira",
+    description: "Aprenda a operar no mercado de opções binárias com o trader Lucas Oliveira.",
+    images: ["https://lucasoliveira.com/twitter-image.png"],
   },
 
   // URL canônica
   alternates: {
-    canonical: "https://gabrielmozaner.com",
+    canonical: "https://lucasoliveira.com",
     languages: {
-      "en-US": "https://gabrielmozaner.com/en",
-      "pt-BR": "https://gabrielmozaner.com/pt-br",
+      "en-US": "https://lucasoliveira.com/en",
+      "pt-BR": "https://lucasoliveira.com/pt-br",
     },
   },
 
   // Propriedades de navegação (páginas anteriores e próximas)
-  archives: "https://gabrielmozaner.com/arquivo",
-  assets: "https://gabrielmozaner.com/assets",
+  archives: "https://lucasoliveira.com/arquivo",
+  assets: "https://lucasoliveira.com/assets",
   category: "Educação Financeira",
 
   // Propriedades da viewport (responsividade)

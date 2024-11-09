@@ -6,7 +6,7 @@ export default function AboutMeSection(){
             <div className={styles.containerAboutMe}>
                 <h1 className={styles.aboutMeTitle}>Conheçam um pouco sobre minha história</h1>
                 <div className={styles.containerTextAboutMe}>
-                    <p className={styles.aboutMeBody} >Meu nome é Gabriel Queiroz Mozaner, tenho 24 anos.</p>
+                    <p className={styles.aboutMeBody} >Meu nome é Lucas Oliveira, tenho 26 anos.</p>
                     <br />
                     <p className={styles.aboutMeBody} >
                         Aos meus 17 anos minha família quebrou, e eu precisei me virar, trabalhei como balconista, atendente, já trabalhei na recepção.
